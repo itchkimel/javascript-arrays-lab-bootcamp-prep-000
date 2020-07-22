@@ -26,6 +26,5 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  var newRemoveLastKitten = removeLastKitten.pop();
-  return newRemoveLastKitten;
+  return removeLastKitten.slice(0, -1);
 }
